@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="40sp"
+            android:text="aaaa"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/banner_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner_img"/>
+    </RelativeLayout>
+
+</LinearLayout>

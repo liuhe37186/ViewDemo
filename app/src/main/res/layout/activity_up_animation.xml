@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="txcap.com.viewdemo.CustomView.UpAnimationActivity">
+
+    <txcap.com.viewdemo.view.DirectionalViewPager
+        android:id="@+id/dvp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"></txcap.com.viewdemo.view.DirectionalViewPager>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF">
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ccff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center">
+            <txcap.com.viewdemo.CustomView.NoScrollListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stackFromBottom="true"
+                android:transcriptMode="alwaysScroll"
+                android:divider="@null"></txcap.com.viewdemo.CustomView.NoScrollListView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

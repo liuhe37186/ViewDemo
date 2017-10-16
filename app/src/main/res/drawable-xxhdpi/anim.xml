@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hongbao_00000" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00001" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00002" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00003" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00004" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00005" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00006" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00007" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00008" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00009" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00010" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00011" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00012" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00013" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00014" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00015" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00016" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00017" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00018" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00019" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00020" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00021" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00022" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00023" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00024" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00025" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00026" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00027" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00028" android:duration="30"></item>
+    <item android:drawable="@drawable/hongbao_00029" android:duration="30"></item>
+</animation-list>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+
+        <attr name="donut_circle_starting_degree" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PieChart">
+        <attr name="autoCenterPointerInSlice" format="boolean"/>
+        <attr name="highlightStrength" format="float"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="labelHeight" format="dimension"/>
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="labelWidth" format="dimension"/>
+        <attr name="labelY" format="dimension"/>
+        <attr name="pieRotation" format="integer"/>
+        <attr name="pointerRadius" format="dimension"/>
+        <attr name="showText" format="boolean"/>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="CirclePercentView">
+        <attr name="radius" format="dimension"/>
+        <attr name="stripeWidth" format="dimension"/><!--色带宽度-->
+        <attr name="percent" format="integer"/><!--百分比 最大值为100-->
+        <attr name="smallColor" format="color"/><!--色带宽度-->
+        <!--外圈颜色-->
+        <attr name="bigColor" format="color"/>
+
+        <!--中间字体颜色-->
+        <attr name="centerTextSize" format="dimension"/>
+        <!--色带宽度-->
+    </declare-styleable>
+
+    <declare-styleable name="CircleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+</resources>

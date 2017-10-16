@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<txcap.com.viewdemo.CustomView.HeadZoomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="txcap.com.viewdemo.CustomView.HeadZoomActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <include layout="@layout/header_layout"/>
+
+    </FrameLayout>
+</txcap.com.viewdemo.CustomView.HeadZoomScrollView>

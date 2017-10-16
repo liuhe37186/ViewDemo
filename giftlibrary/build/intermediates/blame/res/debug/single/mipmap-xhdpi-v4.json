@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/liuhe/Documents/ViewDemo/giftlibrary/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/loading.gif",
+        "source": "/Users/liuhe/Documents/ViewDemo/giftlibrary/src/main/res/mipmap-xhdpi/loading.gif"
+    },
+    {
+        "merged": "/Users/liuhe/Documents/ViewDemo/giftlibrary/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/diamond2x.png",
+        "source": "/Users/liuhe/Documents/ViewDemo/giftlibrary/src/main/res/mipmap-xhdpi/diamond2x.png"
+    },
+    {
+        "merged": "/Users/liuhe/Documents/ViewDemo/giftlibrary/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/icon.jpg",
+        "source": "/Users/liuhe/Documents/ViewDemo/giftlibrary/src/main/res/mipmap-xhdpi/icon.jpg"
+    },
+    {
+        "merged": "/Users/liuhe/Documents/ViewDemo/giftlibrary/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/liuhe/Documents/ViewDemo/giftlibrary/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
